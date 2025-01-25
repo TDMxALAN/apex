@@ -25,7 +25,7 @@ class ProductModel {
       description: json["product"]["description"],
       price: json["product"]["price"],
       categeory: json["product"]["category"],
-      brand: json["product"]["urbanista"],
+      brand: json["product"]["brand"],
     );
   }
 }
